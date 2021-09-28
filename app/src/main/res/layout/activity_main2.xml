@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Válidar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="47dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/idChec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcion1"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="143dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/idChec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcion2"
+        android:checked="true"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Válidar"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Válidar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+        <RadioButton
+            android:id="@+id/idRadio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opcion1"
+            tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="387dp" />
+
+        <RadioButton
+            android:id="@+id/idRadio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opcion2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="456dp" />
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

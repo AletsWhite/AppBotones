@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pruebame"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPrueba"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/maxresdefault"
+        app:srcCompat="@android:drawable/sym_call_outgoing"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Chip"
+        android:textAlignment="center"
+        app:chipBackgroundColor="@android:color/holo_red_dark"
+        app:chipCornerRadius="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        style="@style/Widget.MaterialComponents.Chip.Entry"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Chip"
+        android:textAlignment="center"
+        app:chipBackgroundColor="@android:color/holo_red_dark"
+        app:chipCornerRadius="24dp"
+        app:chipIcon="@drawable/maxresdefault"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <ToggleButton
+        android:id="@+id/tgBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="212dp"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/etiSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: "
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Switch"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/etiSeleccion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: "
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
